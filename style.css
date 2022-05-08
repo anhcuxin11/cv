@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif ;
+}
+body{ 
+    color: #434748;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.container{
+    width: 1000px;
+    min-height: 500px;
+    margin: 0 auto;
+}
+.cv{
+    display: inline-block;
+    /* margin: 0 22%;*/
+    padding: 30px 20px;
+    background: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(56, 53, 53);
+}
+.cv-left{
+    /* display: inline-block; */
+    width: 38%;
+    float: left;
+    position: relative;
+    background: #fff;
+    min-height: 450px;
+}
+.cv-ltop{
+    text-align: center;
+    /* height: 100px; */
+}
+.cv0-top{
+    display: table;
+    margin: 0 auto;
+    height: 100px;
+}
+.cv0-top img{
+    margin: 0 auto;
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    float: none;
+    max-width: 100%;
+}
+.avatar-file {
+    font-size: 16px;
+}
+.cv0-bottom{
+    padding-bottom: 20px;
+}
+.cv0-bottom h1{
+    text-align: center;
+    text-transform: uppercase;
+    padding: 15px 5px 5px 5px;
+    /* font-size: 28px; */
+    color: #0c3242;
+    /* font-weight: bold; */
+    line-height: normal;
+}
+.cv0-bottom h2{
+    text-align: center;
+    padding: 10px 5px 5px 5px;
+    font-size: 20px;
+    /* font-weight: bold; */
+    color: #434748;
+}
+.cv1-profile{
+    padding: 10px 10px 30px 10px;
+}
+.cv1-profile .cv1{
+    margin-bottom: 20px;
+    padding: 0;   
+}
+.cv2-profile .cv2{
+    margin-bottom: 28px;
+    padding: 0;
+}
+.cv-lbottom h3, .cv-right h3{
+    text-align: center;
+    /* margin-bottom: 20px; */
+    background: #193344;
+    border-left: 18px solid #df4829;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 28px;
+    padding: 5px 10px 6px 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+.se1{
+    padding-left: 24px;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-size: 18px;
+    text-align: left;
+}
+.date{
+    background: url("public/ngaysinh.png") left center no-repeat; 
+}
+.sex{
+    background: url("public/gioitinh.png") left center no-repeat; 
+}
+.phonenumber{
+    background: url("public/sdt.png") left center no-repeat; 
+}
+.gmail{
+    background: url("public/gmail.png") left center no-repeat; 
+}
+.address{
+    background: url("public/address.png") left center no-repeat; 
+}
+.fb{
+    background: url("public/fb.png") left center no-repeat; 
+}
+
+.contents{
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
+.contents2{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: bold;
+    text-align: left;
+}
+#e1{
+    margin-top: 0;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+#e2{
+    margin-top: 0;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+#e3{
+    margin-top: 0;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+#e4{
+    margin-top: 0;
+    margin-bottom: 6px;
+    overflow: hidden;
+}
+
+.cv-right{
+    position: relative;
+    width: 60%;
+    float: right;
+    min-height: 450px;
+}
+.cv2-profile{
+    padding: 0px 10px 30px 10px;
+}
+.cv2-text{
+    padding: 0px 20px 0px 15px;
+}
